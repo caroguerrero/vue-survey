@@ -1,4 +1,4 @@
-# encuesta
+# Vue Survey
 
 > A Vue.js project
 
