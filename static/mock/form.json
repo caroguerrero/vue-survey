@@ -1,0 +1,128 @@
+{
+    "title": "RELACIÓN DE LA SINTOMATOLOGÍA MUSCULOESQUELÉTICA Y  LAS CARACTERÍSTICAS SOCIODEMOGRÁFICAS, LABORALES Y EXTRALABORALES EN TRABAJADORES DE UNA EMPRESA DE SOFTWARE",
+    "welcome": "<strong>Autora:</strong> FT. Ximena Sofía Pérez Mantilla. <br><br>Agradezco su participación en el diligenciamiento del presente cuestionario, el cual permitirá identificar la sintomatología musculoesquelética referida por usted. El cuestionario se divide en cuatro (4) secciones,  a saber: <br><br><strong>A.</strong> Datos generales <br><strong>B.</strong> Actividad laboral <br><strong>C.</strong> Actividad extralaboral <br><strong>D.</strong> Síntomas musculoesqueléticos.",
+    "sections": [
+        {
+            "id": 1,
+            "title": "Sección A. Datos Generales",
+            "description": "A continuación indique sus datos personales."
+        },
+        {
+            "id": 2,
+            "title": "Sección A. Datos Generales",
+            "description": "A continuación indique sus datos personales."
+        },
+        {
+            "id": 3,
+            "title": "Sección A. Datos Generales",
+            "description": "A continuación indique sus datos personales."
+        },
+        {
+            "id": 4,
+            "title": "Sección A. Datos Generales",
+            "description": "A continuación indique sus datos personales."
+        }
+    ],
+    "questions": [
+        {
+            "order": 1,
+            "section": 1,
+            "label": "Nombres y Apellidos:",
+            "description": "Complete los espacios en blanco",
+            "type": {"name": "field", "value": "text"},
+            "default": null,
+            "options": []
+        },
+        {
+            "order": 2,
+            "section": 1,
+            "label": "Sexo:",
+            "description": "Selecciona una opción",
+            "type": {"name": "unique", "value": ""},
+            "default": null,
+            "options": [
+                {
+                    "id":1,
+                    "label": "Masculino"
+                },
+                {
+                    "id":2,
+                    "label": "Femenino"
+                },
+                {
+                    "id":3,
+                    "label": "Otro"
+                }
+            ]
+        },
+        {
+            "order": 3,
+            "section": 1,
+            "label": "Edad:",
+            "description": "Complete los espacios en blanco",
+            "type": {"name": "field", "value": "number"},
+            "default": null,
+            "options": []
+        },
+        {
+            "order": 4,
+            "section": 1,
+            "label": "Nivel escolaridad:",
+            "description": "Selecciona una opción",
+            "type": {"name": "unique", "value": ""},
+            "default": null,
+            "options": [
+                {
+                    "id":1,
+                    "label": "Primaria"
+                },
+                {
+                    "id":2,
+                    "label": "Secundaria básica"
+                },
+                {
+                    "id":3,
+                    "label": "Secundaria superior"
+                },
+                {
+                    "id":4,
+                    "label": "Pregrado"
+                },
+                {
+                    "id":5,
+                    "label": "Posgrado"
+                }
+            ]
+        },
+        {
+            "order": 5,
+            "section": 1,
+            "label": "Estado civil:",
+            "description": "Selecciona una opción",
+            "type": {"name": "unique", "value": ""},
+            "default": null,
+            "options": [
+                {
+                    "id":1,
+                    "label": "Soltero/a"
+                },
+                {
+                    "id":2,
+                    "label": "Casado/a"
+                },
+                {
+                    "id":3,
+                    "label": "Divorciado/a"
+                },
+                {
+                    "id":4,
+                    "label": "Viudo/a"
+                },
+                {
+                    "id":5,
+                    "label": "Unión libre"
+                }
+            ]
+        }
+    ]
+}
